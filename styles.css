@@ -1,19 +1,41 @@
-body{margin:20px}
+body{margin:20px;
+    background-color: black;
+}
 
-.avatar{width:150px;}
+.avatar{width:150px;
+margin: 20px 35px 15px;
+padding: 20px;
+border-radius: 20px;}
 
-.card{
+.card{width: 400px;
+    min-width:max-content;
+    max-width: fit-content;
+    background-color: black;
     display: flex;
+    justify-content: space-around;
     padding:20px;
+   margin: 150px auto;
 }
 
-.name{
+span{font-style: italic;}
+
+.job,.location,.number{
+    text-align: center;
+    color:silver;
+    font-weight: bold;}
+
+.name{color: gold;
     font-style: italic;
+    font-size: 25px;
 }
 
-.info{margin:40px;
-padding: 20px;}
+.number{font: size 20px;;}
+.info{
+    border-radius: 20px;
+    margin:10px;
+padding: 40px 130px;
+}
 
 .border-blue{
-    border:1px dotted blue;
+    border:5px inset gold;
 }
